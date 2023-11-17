@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassComp from "./ClassComp"
+import ConditionalRenderingComp from "./Components/ConditionalRenderingComp"
+import CounterApp from "./Components/CounterApp"
+import FormValidation from "./Components/FormValidation"
+import Header from "./Components/Header"
+import ListAndKeys from "./Components/ListAndKeys"
+import Routing from "./Components/Routing/Routing"
+import StylingComp from "./Components/stylings/StylingComp"
+import FuncComp from "./FuncComp"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+  const arr = [1,2,3]
+  return(
+    <div>
+      <Header />
+      <Routing />
+      {/* <h2 className="bg-info">Welcome to React</h2> */}
+      {/* <FuncComp course="ReactJs" arr={arr} duration="3 Months" />
+      <ClassComp course="ReactJs" /> */}
+      {/* <StylingComp /> */}
+      {/* <ListAndKeys /> */}
+      {/* <ConditionalRenderingComp /> */}
+      {/* <FormValidation /> */}
+      {/* <CounterApp /> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

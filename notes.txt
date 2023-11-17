@@ -1,0 +1,13 @@
+-components
+    - functional components
+    - class components
+- virtual DOM
+    - diffing alogirithn
+    - reconsilitation
+- JSX
+- props
+    - shorthand of properties
+    - props is an objects
+    - it transfers data from one component to another component.
+    
+- state
