@@ -22,6 +22,9 @@ const Header = () => {
           <Link to="lifecyclemethod" class="nav-link">lifeCycleMethods</Link>
         </li>
         <li class="nav-item">
+          <Link to="pagination" class="nav-link">Pagination</Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactus" class="nav-link" >ContactUs</Link>
         </li>
         <li class="nav-item">

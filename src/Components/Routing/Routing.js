@@ -5,6 +5,7 @@ import ContactUs from '../ContactUs'
 import StylingComp from '../stylings/StylingComp'
 import FormValidation from '../FormValidation'
 import LifeCycleMethods from '../LifeCycleMethods'
+import Pagination from '../Pagination'
 
 const Routing = () => {
   return (
@@ -14,6 +15,7 @@ const Routing = () => {
             <Route path="contactus" element={<FormValidation />} />
             <Route path="styling" element={<StylingComp />} />
             <Route path="lifecyclemethod" element={<LifeCycleMethods />} />
+            <Route path="pagination" element={<Pagination />} />
         </Routes>
     </div>
   )
