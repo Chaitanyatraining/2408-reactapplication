@@ -6,6 +6,8 @@ import StylingComp from '../stylings/StylingComp'
 import FormValidation from '../FormValidation'
 import LifeCycleMethods from '../LifeCycleMethods'
 import Pagination from '../Pagination'
+import Counter from '../hooks/Counter'
+import UseEffectPagination from '../hooks/UseEffectPagination'
 
 const Routing = () => {
   return (
@@ -16,6 +18,8 @@ const Routing = () => {
             <Route path="styling" element={<StylingComp />} />
             <Route path="lifecyclemethod" element={<LifeCycleMethods />} />
             <Route path="pagination" element={<Pagination />} />
+            <Route path="useStatehook" element={<Counter />} />
+            <Route path="UseEffectPagination" element={<UseEffectPagination />} />
         </Routes>
     </div>
   )

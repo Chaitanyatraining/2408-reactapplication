@@ -4,6 +4,10 @@ class ClassComp extends Component{
     constructor(props){
         super(props)
     }
+    state = {
+        counter: 0
+    }
+    
     render(){
         return(
             <div>

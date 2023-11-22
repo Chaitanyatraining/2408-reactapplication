@@ -25,6 +25,12 @@ const Header = () => {
           <Link to="pagination" class="nav-link">Pagination</Link>
         </li>
         <li class="nav-item">
+          <Link to="useStatehook" class="nav-link">usestateCounter</Link>
+        </li>
+        <li class="nav-item">
+          <Link to="UseEffectPagination" class="nav-link">UseEffectPagination</Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactus" class="nav-link" >ContactUs</Link>
         </li>
         <li class="nav-item">
